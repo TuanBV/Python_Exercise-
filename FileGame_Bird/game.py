@@ -1,5 +1,4 @@
 import random
-
 import pygame, sys
 
 def draw_floor():
@@ -64,24 +63,23 @@ game_font = pygame.font.Font('04B_19.TTF',40)
 #create score
 score = 0
 high_score = 0
-# add bg
+# create background
 bg = pygame.image.load('assets/background-night.png').convert()
 bg = pygame.transform.scale2x(bg)
-# add floor
+# create floor
 floor = pygame.image.load('assets/floor.png').convert()
 floor = pygame.transform.scale2x(floor)
 floor_x_pos = 0
 
-# add bird
+# create bird
 bird_down = pygame.transform.scale2x(pygame.image.load('assets/yellowbird-downflap.png').convert_alpha())
 bird_up = pygame.transform.scale2x(pygame.image.load('assets/yellowbird-upflap.png').convert_alpha())
 bird_mid  = pygame.transform.scale2x(pygame.image.load('assets/yellowbird-midflap.png').convert_alpha())
 bird_list = [bird_down,bird_mid,bird_up]
 bird_index = 0
 bird = bird_list[bird_index]
-#bird = pygame.image.load('assets/yellowbird-midflap.png').convert_alpha()
-#bird = pygame.transform.scale2x(bird)
 bird_rect = bird.get_rect(center=(100, 384))
+
 #create timer bird
 birdflap = pygame.USEREVENT + 1
 pygame.time.set_timer(birdflap,200)
