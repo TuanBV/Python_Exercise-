@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+</head>
+
+<body>
+
+    <!--Create Header of Website-->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imgs/main-logo.png" alt="" width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+                <img src="imgs/cart.png" width="30px" height="30px" alt="">
+            </a>
+            <img src="imgs/menu.png" class="menu-icon" alt="" onclick="menutoggle()"> 
+        </div>
+    </div>
+    <div class="small-container">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Sub Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/pro1-nike-3695.png" alt="">
+                        <div>
+                            <p>Cavaliers SweatShirt by Nike</p>
+                            <small>Rs.3695</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>Rs.3695</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/pro2-Polo Ralph Lauren-12990.png" alt="">
+                        <div>
+                            <p>Polo Ralph Lauren</p>
+                            <small>Rs.12990</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>Rs.3695</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/pro3-allen solly - 2369.png" alt="">
+                        <div>
+                            <p>Allen Solly</p>
+                            <small>Rs.2369</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>Rs.3695</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/pro4-h&m-1499.png" alt="">
+                        <div>
+                            <p>H&M Boy</p>
+                            <small>Rs.1499</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>Rs.3695</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/pro12-fossil-14296.png" alt="">
+                        <div>
+                            <p>Fossil Watch</p>
+                            <small>Rs.14296</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>Rs.3695</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="imgs/pro10-bobbi brown-5600.png" alt="">
+                        <div>
+                            <p>Bobbi Brown</p>
+                            <small>Rs.5600</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" name="" id="" value="1"></td>
+                <td>Rs.3695</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Sub Total</td>
+                    <td>Rs.37419</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs.3741.9</td>
+                </tr>
+                <tr>
+                    <td>Grand Total</td>
+                    <td>Rs.41160.9</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- #Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="imgs/main-logo.png" alt="">
+                    <p>Our purpose is to give the best quality product tho the customer and bring them back and make
+                        them happy.</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

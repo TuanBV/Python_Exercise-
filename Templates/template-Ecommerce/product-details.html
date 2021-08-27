@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+</head>
+
+<body>
+
+    <!--Create Header of Website-->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imgs/main-logo.png" alt="" width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+                <img src="imgs/cart.png" width="30px" height="30px" alt="">
+            </a>
+            <img src="imgs/menu.png" class="menu-icon" alt="" onclick="menutoggle()"> 
+        </div>
+    </div>
+
+    <!--Products-->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="imgs/pro1-nike-3695.png" alt="" id="productImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="imgs/gal1.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="imgs/gal2.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="imgs/gal3.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="imgs/gal4.png" alt="" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / SweatShirt</p>
+                <h1>Cavaliers Sweatshirt by Nike</h1>
+                <h4>Rs.3695</h4>
+                <select name="" id="">
+                    <option value="">Select Size</option>
+                    <option value="">XXL</option>
+                    <option value="">XL</option>
+                    <option value="">L</option>
+                    <option value="">M</option>
+                    <option value="">S</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart</a>
+                <h3>Product Detail <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Black solid sweatshirt
+                    Has a Hood
+                    long sleeves with  one zipper pocket
+                    Zip closure
+                    Striped Detail
+                    2 Insert Pocket
+                    Warranty: 6 months (warranty not valid on products with more than 20% discount)
+                    Warranty provided by Brand Owner/Manufacturer
+                    
+                    Size & Fit
+                    The model (height 6') is wearing a size M
+                    
+                    Material & Care
+                    Material: 66% cotton & 34% polyester
+                    Pocket Bags: 100% cotton  
+                    Hood Lining: 69% cotton & 31% polyester
+                    Machine Wash</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Product</h2>
+            <a href="product.html">View more</a>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="imgs/pro1-nike-3695.png" alt="">
+                <h4>Cavaliers Sweatshirt by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro2-Polo Ralph Lauren-12990.png" alt="">
+                <h4>Polo Ralph by Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro3-allen solly - 2369.png" alt="">
+                <h4>Allen Solly</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.2369</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro4-h&m-1499.png" alt="">
+                <h4>H&M Boy</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+    </div>
+    <!-- #Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="imgs/main-logo.png" alt="">
+                    <p>Our purpose is to give the best quality product tho the customer and bring them back and make
+                        them happy.</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+        //# Product Details
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function(){
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function(){
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function(){
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function(){
+            productImg.src = smallImg[3].src;
+        }
+    </script>
+</body>
+
+</html>
