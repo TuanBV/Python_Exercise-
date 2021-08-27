@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+</head>
+
+<body>
+
+    <!--Create Header of Website-->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imgs/main-logo.png" alt="" width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+                <img src="imgs/cart.png" width="30px" height="30px" alt="">
+            </a>
+            <img src="imgs/menu.png" class="menu-icon" alt="" onclick="menutoggle()"> 
+        </div>
+    </div>
+
+    <!--Products-->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+                <option>By Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="imgs/pro1-nike-3695.png" alt="">
+                <h4>Cavaliers Sweatshirt by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro2-Polo Ralph Lauren-12990.png" alt="">
+                <h4>Polo Ralph by Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro3-allen solly - 2369.png" alt="">
+                <h4>Allen Solly</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.2369</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro4-h&m-1499.png" alt="">
+                <h4>H&M Boy</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.1499</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro5-calvinK-4199.png" alt="">
+                <h4>Calvink</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.4199</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro6-SELECTED-11499.png" alt="">
+                <h4>Selected 11499</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.11499</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro7-anubhutte-988.png" alt="">
+                <h4>Anubhutte Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.988</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro8-biba-3039.png" alt="">
+                <h4>Biba Skirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3039</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro9-dorothy perkins-1245.png" alt="">
+                <h4>Dorothy Perkins</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.1245</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro10-bobbi brown-5600.png" alt="">
+                <h4>Bobbi Brown</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.5600</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro11-AccessHer-39500.png" alt="">
+                <h4>AccessHer</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.39500</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro12-fossil-14296.png" alt="">
+                <h4>Fossil Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.14296</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro13-lacoste-2550.png" alt="">
+                <h4>Lacoste</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.2550</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro14-The Light Lamp-21360.png" alt="">
+                <h4>The Light Lamp</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.21360</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro15-harmon kardon-14990.png" alt="">
+                <h4>Harmon Kardon</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.14990</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro16-steve madden - 8999.png" alt="">
+                <h4>Steve Madden</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.8999</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594</span>
+        </div>
+    </div>
+    <!-- #Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="imgs/main-logo.png" alt="">
+                    <p>Our purpose is to give the best quality product tho the customer and bring them back and make
+                        them happy.</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

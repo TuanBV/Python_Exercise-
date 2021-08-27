@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+</head>
+
+<body>
+
+    <!--Create Header of Website-->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imgs/main-logo.png" alt="" width="125px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html">
+                    <img src="imgs/cart.png" width="30px" height="30px" alt="">
+                </a>
+                <img src="imgs/menu.png" class="menu-icon" alt="" onclick="menutoggle()"> 
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Change your lens,<br>Change your Story.</h1>
+                    <p>When words becomes unclear, I shall focus with photographs. <br>When Images becomes inadequate, I
+                        shall be content with silence.</p>
+                    <a href="#" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="imgs/main.png " alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Create Categories-->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="imgs/category1.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="imgs/category2.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="imgs/category3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Products-->
+    <div class="small-container">
+        <h2 class="title">Features Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html">
+                    <img src="imgs/pro1-nike-3695.png" alt="">
+                </a>
+                <a href="product-details.html">
+                    <h4>Cavaliers Sweatshirt by Nike</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro2-Polo Ralph Lauren-12990.png" alt="">
+                <h4>Polo Ralph by Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro3-allen solly - 2369.png" alt="">
+                <h4>Allen Solly</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.2369</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro4-h&m-1499.png" alt="">
+                <h4>H&M Boy</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="imgs/pro5-calvinK-4199.png" alt="">
+                <h4>Calvink</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.4199</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro6-SELECTED-11499.png" alt="">
+                <h4>Selected</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.11499</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro7-anubhutte-988.png" alt="">
+                <h4>Anubhutte Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.988</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro8-biba-3039.png" alt="">
+                <h4>Biba Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.3039</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro9-dorothy perkins-1245.png" alt="">
+                <h4>Dorothy Perkins Skirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.1245</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro10-bobbi brown-5600.png" alt="">
+                <h4>Bobbi Brown Cream</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.5600</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro11-AccessHer-39500.png" alt="">
+                <h4>AccessHer necklace</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.39500</p>
+            </div>
+            <div class="col-4">
+                <img src="imgs/pro12-fossil-14296.png" alt="">
+                <h4>Fossil Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Rs.14296</p>
+            </div>
+        </div>
+    </div>
+    <!--Offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="imgs/shopping.png" class="offer-img" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Availbale on NILARA</p>
+                    <h1>Apple watch series 5</h1>
+                    <small>
+                        Apple Watch Series 5 has a new blood oxygen sensor and app, and ECG anytime, anywhere. The
+                        future of health is on your wrist.
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594; </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam temporibus non sapiente nemo autem illo! Ea sunt corporis officia inventore.></p>
+
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <img src="imgs/user-1.jpg" alt="">
+                    <h3>Nilay Hirpara</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam temporibus non sapiente nemo autem illo! Ea sunt corporis officia inventore.></p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <img src="imgs/user-2.jpg" alt="">
+                    <h3>Pranav Badgal</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam temporibus non sapiente nemo autem illo! Ea sunt corporis officia inventore.></p>
+
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <img src="imgs/user-3.jpg" alt="">
+                    <h3>Navnit Kumar</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #Brand -->
+    <div class="brands">
+        <h2 class="title">Cooperative Brands</h2>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="imgs/logo-1.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="imgs/logo-2.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="imgs/logo-3.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="imgs/logo-4.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="imgs/logo-5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="imgs/main-logo.png" alt="">
+                    <p>Our purpose is to give the best quality product tho the customer and bring them back and make them happy.</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
